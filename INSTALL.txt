@@ -1,0 +1,39 @@
+
+SIMPLE META KEYWORDS WORDPRESS PLUGIN INSTRUCTIONS:
+--------------------------------------------------------------------------
+
+1. Open up the simple-meta-keywords.php file in a text editor of your 
+   choice.
+   
+2. Find the line that looks like this:
+
+   $default_keywords = "weblog,interesting,neat,super,duper";
+   
+   Remove those five sample keywords, and put in your own default
+   keywords (unless you want to keep those of course). The only rules
+   for the default keyword list are:
+   
+   a) separate the keywords with commas
+
+   b) do not leave any spaces around the commas
+   
+   Basically, you want it to look just like the example in the code.
+
+3. Put the simple-meta-keywords.php file in your wp-content/plugins/ 
+   directory, via upload or whatever you normally do.
+
+4. On the WP Dashboard Plugins screen, activate the plugin.
+
+5. That should be it!
+
+
+CAVEATS:
+--------------------------------------------------------------------------
+
+If your current theme, or another plugin, also tries to add the keywords
+meta tag, I'm not sure what will happen; but probably nothing good.
+
+This code is released as is. I may make adjustments over time to this
+plugin, but right now it does exactly what I need.
+
+I can't provide tech support if this plugin isn't working for you.
