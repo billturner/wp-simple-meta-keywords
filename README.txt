@@ -9,3 +9,7 @@ There is a way to specify default keywords to appear on all other pages
 specified.
 
 See INSTALL.txt for installation instructions.
+
+This plugin was written for my weblog The Tools Artists Use, located at
+http://thetoolsartistsuse.com/ if you'd like to see it in action. Just 
+view the source on the single post archives.
